@@ -1,7 +1,7 @@
 import requests
 import json
 '''
-Swagger API call v 0.5
+Swagger API call v 0.6
 '''
 # задали базовый урл
 base_url = 'https://petstore.swagger.io/v2'

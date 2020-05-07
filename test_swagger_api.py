@@ -4,7 +4,7 @@ import swagger
 import datetime
 
 '''
-Swagger API  test v0.3
+Swagger API  test v0.4
 '''
 
 # функция просто возвращает статус-код

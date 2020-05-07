@@ -51,7 +51,7 @@ class SwaggerAPITest(unittest.TestCase):
         self.assertEqual(status(swagger.store_order_post(1, 1, 1)), 200) 
     def test_post_store_order_02(self):
         "Добавление информации о заказе, негативный - Invalid Order"
-        self.assertEqual(status(swagger.store_order_post("abc", 1, 1)), 404) 
+        self.assertEqual(status(swagger.store_order_post("abc", 1, 1)), 400) 
 
 if __name__ == '__main__':
     unittest.main(verbosity=2)
